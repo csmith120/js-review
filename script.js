@@ -21,7 +21,7 @@ let myFirstJob = 'none';
 let myCurrentJob = 'none';
 
 console.log(myFirstJob)
-*/
+
 
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
@@ -37,3 +37,28 @@ console.log(typeof javascriptIsFun);
 let year;
 console.log(year);
 console.log(typeof year);
+
+year = 1991;
+console.log(typeof year);
+
+console.log(typeof null);
+
+
+let age = 30;
+age = 31;
+
+const birthYear = 1991;
+// birthYear = 1990;
+
+// const job;
+
+var job = 'programmer';
+job = 'teacher'
+
+lastName = 'CS';
+console.log(lastName);
+*/
+
+const ageJonas = 2037 - 1991;
+const ageSarah = 2037 - 2018;
+console.log(ageJonas, ageSarah)
