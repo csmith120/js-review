@@ -101,7 +101,7 @@ console.log(x, y);
 
 const avareageAge = (ageJonas + ageSarah) / 2
 console.log(ageJonas, ageSarah, avareageAge)
-*/
+
 
 // const massMark = 78;
 // const heightMark = 1.69;
@@ -117,4 +117,33 @@ const BMIMark = massMark / heightMark ** 2;
 const BMIJohn = massJohn / (heightJohn * heightJohn);
 const markHigherBMI = BMIMark > BMIJohn;
 
-console.log(BMIMark, BMIJohn, markHigherBMI)
+console.log(BMIMark, BMIJohn, markHigherBMI);
+
+
+const firstName = 'C';
+const job = 'teacher';
+const birthYear = 1991;
+const year = 2037;
+
+const chris = "i'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '.';
+console.log(chris);
+
+const jonasNew = `I'm ${firstName}, a ${year - birthYear}, years old ${job}`;
+console.log(jonasNew);
+
+console.log('just a regular string.....')
+
+console.log('string with \n\ mutiple lines');
+
+console.log(`sting with 
+ mutiple lines`);
+ */
+
+ const age = 15;
+
+ if(age >= 18) {
+    console.log('sarah can start driving X_X');
+ } else {
+    const yearsLeft = 18 - age;
+    console.log(`too young wait another ${yearsLeft} years`);
+ }
